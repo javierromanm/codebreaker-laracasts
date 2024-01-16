@@ -6,7 +6,7 @@
     <title>Codebreaker</title>
     @vite('resources/css/app.css')
 </head>
-<body class="pt-8 bg-blue-900">
+<body class="pt-8 bg-primary">
     {{ $slot }}
     
 </body>
