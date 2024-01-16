@@ -6,11 +6,7 @@ use Livewire\Component;
 
 class CreateCode extends Component
 {
-    public int $count = 23;
-
-    public function increment() {
-        $this->count++;
-    }
+    public string $message;
 
     public function render()
     {
